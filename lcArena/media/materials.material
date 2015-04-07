@@ -1,0 +1,115 @@
+material Arene/Grid
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gltronfloor.png
+			}
+		}
+	}
+}
+
+material Arene/MurAnime
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				anim_texture gltronwall_1.png gltronwall_2.png gltronwall_3.png gltronwall_4.png 4.0
+			}
+		}
+	}
+}
+
+material Arene/Mur1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gltronwall_1.png
+				//scroll_anim 0.03 0
+			}
+		}
+	}
+}
+
+material Arene/Mur2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gltronwall_2.png
+				//scroll_anim 0.03 0
+			}
+		}
+	}
+}
+
+material Arene/Mur3
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gltronwall_3.png
+				//scroll_anim 0.03 0
+			}
+		}
+	}
+}
+
+material Arene/Mur4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gltronwall_4.png
+				//scroll_anim 0.03 0
+			}
+		}
+	}
+}
+
+material Arene/Sky
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture skybox4.png
+			}
+		}
+	}
+}
+
+material Arene/Wall
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture clouds2.jpg
+			}
+		}
+	}
+}
